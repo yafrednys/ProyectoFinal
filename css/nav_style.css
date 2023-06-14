@@ -1,0 +1,48 @@
+/* Estilos para la barra de navegación */
+nav {
+    width: 90%;
+    background-color: black;
+    margin-left: 5%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 25%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.1rem 0.3rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: cyan;
+  }
+  
+  /* Animación de brillo */
+  @keyframes shine {
+    0% {
+      color: white;
+    }
+    50% {
+      color: cyan;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
+  nav ul li a.shine-animation {
+    animation: shine 5s infinite;
+  }
+  

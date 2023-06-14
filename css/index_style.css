@@ -1,0 +1,59 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.informacion{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    padding: 1em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+.parrafo .info{
+    width: 75%;
+    text-align: justify;
+}
+.parrafo .info p{
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.parrafo img{
+    border-radius: 0.8em;
+    width: 150px;
+    height: 88px;
+}
+.parrafo:nth-child(even) img{ /*par*/
+    float: right;
+    margin: 1rem 0 2rem 1em;
+}
+.parrafo:nth-child(even) .info{
+    float: left;
+}
+.parrafo:nth-child(odd) img{ /*impar*/
+    float: left;
+    margin: 1rem 0 2rem 1em;
+}
+.parrafo:nth-child(odd) .info{
+    float: right;
+}
+
+.explica p {
+    text-align: justify;
+    width: 80%;
+    margin: 3rem 0 3rem 6rem;
+}
+
+.explica h2 {
+    text-align: center;
+}
+
+.ubicacion {
+    display: flex;
+    align-content: center;
+    margin-left: 5rem;
+    width: 80%;
+    padding-bottom: 5rem;
+}
+
